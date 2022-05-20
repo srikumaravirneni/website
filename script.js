@@ -21,7 +21,7 @@ const closeModal = function () {
 
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
 
-btnCloseModal.addEventListener('click', closeModal);
+//btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
 for (let i = 0; i < btnsOpenModal.length; i++)
@@ -41,9 +41,7 @@ document.getElementById('section--1');
 const buttons = document.getElementsByTagName('button');
 
 
-document.querySelector('.btn--close--cookie').addEventListener('click', function () {
-  message.parentElement.removeChild(message);
-});
+
 
 //styles
 message.style.backgroundColor = '#37383d';
