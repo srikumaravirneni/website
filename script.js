@@ -22,7 +22,7 @@ const closeModal = function () {
 btnsOpenModal.forEach(btn => btn.addEventListener('click', openModal));
 
 //btnCloseModal.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
+//overlay.addEventListener('click', closeModal);
 
 for (let i = 0; i < btnsOpenModal.length; i++)
   btnsOpenModal[i].addEventListener('click', openModal);
@@ -44,13 +44,14 @@ const buttons = document.getElementsByTagName('button');
 
 
 //styles
+/*
 message.style.backgroundColor = '#37383d';
 message.style.width = '120%';
 message.style.height = '6%';
 
 message.style.height = Number.parseFloat(getComputedStyle(message).height + 40 + 'px');
 document.documentElement.style.setProperty('--color-primary', 'skyblue');
-
+*/
 const btnScrollTo = document.querySelector('.btn--scroll-to');
 const section1 = document.querySelector('#section--1');
 
