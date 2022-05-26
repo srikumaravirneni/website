@@ -2,7 +2,7 @@
 
 ///////////////////////////////////////
 // Modal window
-
+/*
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.btn--close-modal');
@@ -51,7 +51,8 @@ message.style.height = '6%';
 
 message.style.height = Number.parseFloat(getComputedStyle(message).height + 40 + 'px');
 document.documentElement.style.setProperty('--color-primary', 'skyblue');
-*/
+
+
 const btnScrollTo = document.querySelector('.btn--scroll-to');
 const section1 = document.querySelector('#section--1');
 
@@ -281,3 +282,4 @@ const slider = function () {
   });
 };
 slider();
+*/
